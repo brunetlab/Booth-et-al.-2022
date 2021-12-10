@@ -1,0 +1,169 @@
+---
+title: "Untitled"
+output: html_document
+---
+
+```{r}
+rm(list=ls())
+setwd("~/Dropbox/Seurat/")
+
+library(Seurat)
+library(dplyr)
+library(harmony)
+sessionInfo()
+```
+
+```{r}
+## Get the data from the main experiment from Cao et al 2017 Science and convert to a Seurat object
+expression_matrix <- readRDS(url("http://staff.washington.edu/hpliner/data/cao_l2_expression.rds"))
+cell_metadata <- readRDS(url("http://staff.washington.edu/hpliner/data/cao_l2_colData.rds"))
+gene_annotation <- readRDS(url("http://staff.washington.edu/hpliner/data/cao_l2_rowData.rds"))
+## Label the expression matrix using gene symbols rather than WormBaseID
+rownames(expression_matrix) <- gene_annotation$gene_short_name
+## Rename the cell metadata columns to match obj2 (below)
+names(cell_metadata)[names(cell_metadata)=="cao_cell_type"] <- "cell.type"
+names(cell_metadata)[names(cell_metadata)=="cao_tissue"] <- "tissue"
+## Create object
+obj1 <- CreateSeuratObject(counts = expression_matrix)
+obj1$experiment <- "expr1"
+obj1@meta.data <- cell_metadata
+obj1 # 42035 cells
+# Verify labels are in metadata
+head(obj1[[]])
+```
+
+```{r}
+# Load cds.experiment parts separately extracted from vignette by Matt.
+expression_matrix2 <- readRDS("../Data/cds2.counts.rds")
+cell_data <- readRDS("../Data/cds2.cell.data.rds")
+gene_data <- readRDS("../Data/cds2.gene.data.rds")
+# Label the matrix
+colnames(expression_matrix2) <- cell_data$cell
+rownames(expression_matrix2) <- gene_data$symbol
+# Create object
+obj2 <- CreateSeuratObject(counts = expression_matrix2)
+obj2$experiment <- "expr2"
+obj2@meta.data <- cell_data
+obj2 # 7325 samples 
+# Verify labels are in metadata
+head(obj2[[]])
+```
+
+
+```{r}
+## creating a merged seurat object
+merged.obj <- merge(x = obj1, y = obj2)
+## Add experiment source to the metadata
+merged.obj@meta.data$experiment <- c(rep("expr1", ncol(expression_matrix)), rep("expr2", ncol(expression_matrix2)))
+## Remove cells called as "Failed QC" or with NA cell type (from Cao et al 2017)
+merged.obj <- subset(merged.obj, subset = cell.type != "Failed QC")
+
+## preprocess data
+merged.obj <- NormalizeData(merged.obj, verbose = FALSE)
+merged.obj <- FindVariableFeatures(merged.obj, selection.method = "vst", nfeatures = 2000)
+merged.obj <- ScaleData(merged.obj, verbose = FALSE)
+merged.obj <- RunPCA(merged.obj, npcs = 40, verbose = FALSE)
+
+```
+
+```{r}
+library(cowplot)
+options(repr.plot.height = 5, repr.plot.width = 12)
+p1 <- DimPlot(object = merged.obj, reduction = "pca", pt.size = .1, group.by = "experiment")
+p2 <- VlnPlot(object = merged.obj, features = "PC_1", group.by = "experiment", pt.size = .1)
+plot_grid(p1,p2)
+```
+
+```{r}
+## Use Harmony to integrate the data
+options(repr.plot.height = 2.5, repr.plot.width = 6)
+merged.obj <- merged.obj %>% 
+    RunHarmony("experiment", plot_convergence = TRUE)
+```
+
+```{r}
+harmony_embeddings <- Embeddings(merged.obj, 'harmony')
+harmony_embeddings[1:5, 1:5]
+```
+
+```{r}
+options(repr.plot.height = 5, repr.plot.width = 12)
+p1 <- DimPlot(object = merged.obj, reduction = "harmony", pt.size = .1, group.by = "experiment")
+p2 <- VlnPlot(object = merged.obj, features = "harmony_1", group.by = "experiment", pt.size = .1)
+plot_grid(p1,p2)
+```
+
+```{r}
+## use DimHeatmap to explore PCs 
+DimHeatmap(merged.obj, dims = 1:15, cells = 500, balanced = TRUE)
+DimHeatmap(merged.obj, dims = 16:30, cells = 500, balanced = TRUE)
+DimHeatmap(merged.obj, dims = 31:40, cells = 500, balanced = TRUE)
+```
+
+```{r}
+ElbowPlot(merged.obj, ndims = 40)
+```
+Together with the heatmaps, this suggests that using 35 dimensions might be appropriate for this data
+
+```{r}
+merged.obj <- merged.obj %>% 
+    RunUMAP(reduction = "harmony", dims = 1:35) %>% 
+    FindNeighbors(reduction = "harmony", dims = 1:35) %>% 
+    FindClusters(resolution = 0.5) %>% 
+    identity()
+```
+
+```{r}
+options(repr.plot.height = 4, repr.plot.width = 10)
+DimPlot(merged.obj, reduction = "umap", group.by = "experiment", pt.size = .1)
+DimPlot(merged.obj, reduction = "umap", group.by = "experiment", pt.size = .1, split.by = "experiment")
+```
+When trying out 20 dimensions, there were no clusters that were primarily from experiment 2. With 35 dimensions, there are experiment2 only/primarily clusters which is expected because this is the only dataset with intestinal cells
+
+```{r}
+options(repr.plot.height = 4, repr.plot.width = 6)
+DimPlot(merged.obj, reduction = "umap", label = TRUE, pt.size = .1)
+```
+
+```{r}
+merged.obj$ClusterNumber <- Idents(merged.obj)
+Idents(merged.obj) <- "tissue"
+DimPlot(merged.obj, reduction = "umap")
+```
+
+
+```{r}
+Idents(merged.obj) <- "cell.type"
+DimPlot(merged.obj, reduction = "umap")
+```
+
+```{r}
+saveRDS(merged.obj, file = "../Results/merged_clustered_dim35.rds")
+```
+
+```{r}
+## plot my genes of interest
+pdf("Results/UMAP-delm-2-acbp-3.pdf", width = 7)
+FeaturePlot(scData, features = c("delm-2", "acbp-3"), order = TRUE, min.cutoff = 0, max.cutoff = 3)
+dev.off()
+
+pdf("../Results/violin-delm-2.pdf", width = 20)
+VlnPlot(merged.obj, features = "delm-2")
+dev.off()
+
+pdf("../Results/violin-acbp-3.pdf", width = 20)
+VlnPlot(merged.obj, features = "acbp-3")
+dev.off()
+
+```
+
+
+
+
+
+
+
+
+
+
+
