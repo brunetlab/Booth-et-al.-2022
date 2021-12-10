@@ -1,0 +1,51 @@
+Interaction	Gene	HR	Lower	Higher	P	Experiment	Researcher	In_June_Submission	Label
+RNAiacbp-3:malesyes	acbp-3 RNAi	0.50673091	0.32434493	0.79167637	0.00282521	031819_acbp-3_col-43_nhx-2_MID	Cindy	yes	This study
+RNAiacbp-3:malesyes	acbp-3 RNAi	0.382947704	0.156731216	0.935671573	0.035218371	2017-0519-screen-3-7overlap	Lauren-screen	yes	This study (screen)
+RNAiacbp-3:malesyes	acbp-3 RNAi	0.200902396	0.124688508	0.323700823	4.26E-11	2020-0925-delm-2-acbp-3-VP303-MID	Lauren	no	This study
+RNAiacbp-3:malesyes	acbp-3 RNAi	0.845613145	0.551147426	1.297405299	0.442594034	2020-1019-TU3401-acbp-3-delm-2-RNAi	Lauren	no	This study
+RNAiacd-1:malesyes	acd-1 RNAi	0.42442088	0.24763425	0.72741587	0.0018225	021819_acd-1_delm-2	Cindy	yes	This study
+RNAiacd-1:malesyes	acd-1 RNAi	0.56255828	0.31702665	0.99824987	0.04930435	2019-0812-acd-1-nhx-2-sri-40-RNAi	Lauren	yes	This study
+RNAiF08A8.3:malesyes	acox-1.3 RNAi	0.436123481	0.184139177	1.032934403	0.05925368	2016-0713-screen#1	Lauren-screen	yes	This study (screen)
+RNAicol-43:malesyes	col-43 RNAi	0.14722753	0.08964451	0.24179893	3.78E-14	031819_acbp-3_col-43_nhx-2_MID	Cindy	yes	This study
+RNAicol-43:malesyes	col-43 RNAi	0.33870661	0.19717969	0.58181534	8.78E-05	090118_col-43	Cindy	yes	This study
+RNAicol-43:malesyes	col-43 RNAi	0.366951582	0.160419614	0.839382796	0.01756327	2016-0713-screen#1	Lauren-screen	yes	This study (screen)
+genotype_RNAidaf-2:malesyes	daf-2 mut	2.687803697	1.502388678	4.808535117	0.000863596	2021-0311-12-daf-2-delm-2-MID	Lauren	no	This study
+genotypedaf-2:malesyes	daf-2 mut	28.10808437	10.42682071	75.77232113	4.30E-11	daf-2_v_N2_rep1	Travis	published	Travis
+genotypedaf-2:malesyes	daf-2 mut	25.42514421	10.56179655	61.20530302	5.23E-13	daf-2_v_N2_rep2	Travis	published	Travis
+RNAidelm-2:malesyes	delm-2 RNAi	0.47554422	0.27992507	0.80786728	0.00597661	021819_acd-1_delm-2	Cindy	yes	This study
+RNAidelm-2:malesyes	delm-2 RNAi	0.324406971	0.139998457	0.751721734	0.008650442	2016-0713-screen#1	Lauren-screen	yes	This study (screen)
+RNAidelm-2:malesyes	delm-2 RNAi	0.651049195	0.40874745	1.036985195	0.070755056	2020-0911-acbp-3mut-delm-2RNAi-MID	Lauren	no	This study
+RNAidelm-2:malesyes	delm-2 RNAi	0.292303385	0.180744393	0.47271878	5.31E-07	2020-0925-delm-2-acbp-3-VP303-MID	Lauren	no	This study
+RNAidelm-2:malesyes	delm-2 RNAi	0.654368987	0.394266175	1.086065199	0.100885754	2020-1016-acbp-3mut-delm-2RNAi-MID	Lauren	no	This study
+RNAidelm-2:malesyes	delm-2 RNAi	0.203226101	0.131247107	0.314680065	9.15E-13	2020-1019-TU3401-acbp-3-delm-2-RNAi	Lauren	no	This study
+RNAidelm-2:malesyes	delm-2 RNAi	0.239917353	0.153224569	0.375659966	4.39E-10	2021-0219-intestineRNAi-delm-2	Lauren	no	This study
+RNAidelm-2:malesyes	delm-2 RNAi	0.41494627	0.269848862	0.638062378	6.16E-05	2021-0223-intestineRNAi-delm-2	Lauren	no	This study
+genotype_RNAidelm-2:malesyes	delm-2 RNAi	0.155492335	0.097739555	0.247370333	3.94E-15	2021-0311-12-daf-2-delm-2-MID	Lauren	no	This study
+RNAiefn-4:malesyes	efn-4 RNAi	0.904404566	0.355091067	2.303486896	0.83316289	2017-0519-screen-3-7overlap	Lauren-screen	yes	This study (screen)
+Genotypeglp-1:malesyes	glp-1 mut	2.742816786	1.812900625	4.14972769	1.79E-06	2021-0601-glp-1timing-vs-N2	Lauren	no	This study
+genotypeglp-1:malesyes	glp-1 mut	3.018100159	1.76049069	5.174085057	5.91E-05	glp-1_v_N2	Travis	published	Travis
+genotypeisp-1:malesyes	isp-1	1.99240733	1.1160106	3.55703341	0.01974607	2016-0829-mito-MID	Lauren	yes	This study
+genotypeAGD1505:malesyes	jmjd-1.2 OE	1.808355377	0.998337148	3.275596	0.050645255	2021-0319-N2vsAGD1505-MID	Lauren	no	This study
+genotypeAGD1505:malesyes	jmjd-1.2 OE	6.988910002	4.023791801	12.13901351	5.11E-12	2021-0405-jmjd-1.2-OE-MID	Lauren	no	This study
+RNAilpr-6:malesyes	lpr-6 RNAi	0.7494905	0.36968502	1.51949898	0.42388742	2017-1009-RNAi-screen#3	Lauren-screen	yes	This study (screen)
+RNAinhx-2:malesyes	nhx-2 RNAi	0.39543736	0.25170788	0.62123881	5.69E-05	031819_acbp-3_col-43_nhx-2_MID	Cindy	yes	This study
+RNAinhx-2:malesyes	nhx-2 RNAi	1.11943704	0.63626843	1.96951356	0.69548965	2019-0812-acd-1-nhx-2-sri-40-RNAi	Lauren	yes	This study
+genotypenuo-6:malesyes	nuo-6	1.31638532	0.76407614	2.26792884	0.32196207	2016-0829-mito-MID	Lauren	yes	This study
+Genotypenuo-6:malesyes	nuo-6	1.21435971	0.555534103	2.654507614	0.626436258	2017-02-nuo-6-delm-2	Lauren	yes	This study
+RNAiR03G8.4:malesyes	R03G8.4 RNAi	0.551720585	0.244353009	1.24572071	0.152370062	2016-0713-screen#1	Lauren-screen	yes	This study (screen)
+RNAisre-28:malesyes	sre-28 RNAi	1.24059811	0.62318272	2.46971493	0.53939663	2017-1009-RNAi-screen#3	Lauren-screen	yes	This study (screen)
+RNAisri-40:malesyes	sri-40 RNAi	0.62991267	0.39664485	1.00036588	0.05018146	081018_sri-40_MID	Cindy	yes	This study
+RNAisri-40:malesyes	sri-40 RNAi	0.7291606	0.36596812	1.45279097	0.36915276	2017-1009-RNAi-screen#3	Lauren-screen	yes	This study (screen)
+RNAisri-40:malesyes	sri-40 RNAi	0.7160351	0.43684776	1.17364977	0.18521296	2018-0302-sri-40-nhr-3-MID	Lauren	yes	This study
+RNAisri-40:malesyes	sri-40 RNAi	0.89987429	0.51498104	1.57243409	0.7110216	2019-0812-acd-1-nhx-2-sri-40-RNAi	Lauren	yes	This study
+RNAiT05E7.1:malesyes	T05E7.1 RNAi	0.495361088	0.204266592	1.201286052	0.120134721	2017-0519-screen-3-7overlap	Lauren-screen	yes	This study (screen)
+RNAiutx-1:malesyes	utx-1 RNAi	0.6578774	0.39853268	1.08599042	0.10154845	2015-0223-utx-1MID	Lauren	yes	This study
+RNAiutx-1:malesyes	utx-1 RNAi	0.657877403	0.398532683	1.085990423	0.101548454	2015-0223-utx-1MID	Lauren	no	This study
+RNAiutx-1:malesyes	utx-1 RNAi	0.35057563	0.19064417	0.64467365	0.000745	2016-0218-utx-1-MID-tissues	Lauren	no	This study
+RNAiutx-1:malesyes	utx-1 RNAi	0.56955537	0.3444073	0.94188862	0.02829087	2016-0325-MID-RNAi-utx-1-nhr-6	Lauren	yes	This study
+RNAiutx-1:malesyes	utx-1 RNAi	0.439497584	0.193251095	0.999518921	0.049865978	2016-0713-screen#1	Lauren-screen	yes	This study (screen)
+RNAiutx-1:malesyes	utx-1 RNAi	0.40481911	0.147819415	1.108639972	0.078523235	2017-0519-screen-3-7overlap	Lauren-screen	yes	This study (screen)
+RNAiutx-1:malesyes	utx-1 RNAi	1.05334579	0.53481179	2.07463144	0.88054276	2017-1009-RNAi-screen#3	Lauren-screen	yes	This study (screen)
+RNAiutx-1:malesyes	utx-1 RNAi	0.619421515	0.308533941	1.24356825	0.177996269	utx-1_v_control	Travis	published	Travis
+RNAiwrt-10:malesyes	wrt-10 RNAi	0.74024986	0.37745073	1.45176526	0.38146147	2017-1009-RNAi-screen#3	Lauren-screen	yes	This study (screen)
+conditiondelm-2-RNAi:malesyes	delm-2 RNAi	0.387648375	0.251041148	0.598592158	1.91E-05	2021-0709-DEG-ENaC-mut-MID	Lauren	no	This study

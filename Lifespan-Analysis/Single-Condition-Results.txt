@@ -1,0 +1,103 @@
+	HR	Lower	Higher	P	Experiment	Researcher	In_June_Submission	Gene	Label	Ordering	Condition
+RNAiacbp-3	0.404142112	0.29257071	0.5582611	3.87E-08	031819_acbp-3_col-43_nhx-2_MID	Cindy	yes	acbp-3 RNAi	This study	4	with males
+RNAiacbp-3	0.375416128	0.188399653	0.748076052	0.005351729	2017-0519-RNAiscreen-3-7overlap	Lauren-screen	yes	acbp-3 RNAi	This study (screen)	4	with males
+RNAiacbp-3	0.356802023	0.264603475	0.481126274	1.41E-11	2020-0925-delm-2-acbp-3-VP303-MID	Lauren	no	acbp-3 RNAi	This study	4	with males
+RNAiacbp-3	0.497204726	0.368463436	0.670928279	4.87E-06	2020-1019-TU3401-acbp-3-delm-2-RNAi	Lauren	no	acbp-3 RNAi	This study	4	with males
+RNAiacd-1	0.351347192	0.226206692	0.545717051	3.23E-06	021819_acd-1_delm-2	Cindy	yes	acd-1 RNAi	This study	5	with males
+RNAiacd-1	0.511696603	0.326292091	0.802450997	0.003515318	2019-0812-acd-1-nhx-2-sri-40-RNAi	Lauren	yes	acd-1 RNAi	This study	5	with males
+RNAiF08A8.3	0.395966877	0.209413682	0.748708329	0.004366421	2016-0713-screen#1	Lauren-screen	yes	acox-1.3 RNAi	This study (screen)	3	with males
+RNAicol-43	0.132304904	0.090689081	0.193017589	8.94E-26	031819_acbp-3_col-43_nhx-2_MID	Cindy	yes	col-43 RNAi	This study	1	with males
+RNAicol-43	0.16390083	0.102120347	0.263057099	6.78E-14	090118_col-43	Cindy	yes	col-43 RNAi	This study	1	with males
+RNAicol-43	0.47581022	0.25904001	0.87397837	0.016658523	2016-0713-screen#1	Lauren-screen	yes	col-43 RNAi	This study (screen)	1	with males
+genotype_RNAidaf-2	0.312072924	0.200328549	0.48614893	2.62E-07	2021-0311-12-delm-2-daf-2-MID	Lauren	no 	daf-2 mut	This study	19	with males
+genotypedaf-2	0.455770657	0.292745662	0.709581453	0.00050342	daf-2_v_N2_rep1	Travis	no	daf-2 mut	Travis	19	with males
+genotypedaf-2	0.629668199	0.415737996	0.953682475	0.028972074	daf-2_v_N2_rep2	Travis	no	daf-2 mut	Travis	19	with males
+RNAidelm-2	0.204783599	0.133017626	0.315268914	5.87E-13	021819_acd-1_delm-2	Cindy	yes	delm-2 RNAi	This study	2	with males
+RNAidelm-2	0.350850208	0.192111034	0.640753767	0.000653343	2016-0713-screen#1	Lauren-screen	yes	delm-2 RNAi	This study (screen)	2	with males
+conditiondelm-2	0.16756977	0.118404645	0.237149714	6.68E-24	2020-0911-acbp-3mut-delm-2RNAi-MID	Lauren	no	delm-2 RNAi	This study	2	with males
+RNAidelm-2	0.355128118	0.262874056	0.479758185	1.52E-11	2020-0925-delm-2-acbp-3-VP303-MID	Lauren	no	delm-2 RNAi	This study	2	with males
+conditiondelm-2	0.274556958	0.194421388	0.38772238	2.13E-13	2020-1016-acbp-3mut-delm-2RNAi-MID	Lauren	no	delm-2 RNAi	This study	2	with males
+RNAidelm-2	0.092661148	0.064123541	0.133899162	9.27E-37	2020-1019-TU3401-acbp-3-delm-2-RNAi	Lauren	no 	delm-2 RNAi	This study	2	with males
+RNAidelm-2	0.177892451	0.123913733	0.255385124	8.08E-21	2021-0219-intestineRNAi-delm-2	Lauren	no 	delm-2 RNAi	This study	2	with males
+RNAidelm-2	0.385863479	0.278444462	0.53472288	1.06E-08	2021-0223-intestineRNAi-delm-2	Lauren	no 	delm-2 RNAi	This study	2	with males
+conditiondelm-2	0.630640414	0.467714905	0.850319987	0.002500702	2021-0305-delm-2-fat-7-MID	Lauren	no	delm-2 RNAi	This study	2	with males
+genotype_RNAidelm-2	0.131457754	0.088048087	0.196269353	3.33E-23	2021-0311-12-delm-2-daf-2-MID	Lauren	no	delm-2 RNAi	This study	2	with males
+conditiondelm-2	0.227948385	0.163598303	0.317610056	2.40E-18	2021-0319-delm-2-fat-7-MID-rep2	Lauren	no	delm-2 RNAi	This study	2	with males
+conditiondelm-2-RNAi	0.209257669	0.151166155	0.289673122	4.19E-21	2021-0709-DEG-ENaC-mut-MID	Lauren	no	delm-2 RNAi	This study	2	with males
+RNAiefn-4	0.461826913	0.23949009	0.890575878	0.021119142	2017-0519-RNAiscreen-3-7overlap	Lauren-screen	yes	efn-4 RNAi	This study (screen)	13	with males
+Genotypeglp-1	0.970278027	0.723340617	1.301516087	0.840424189	2021-0601-glp-1timing-vs-N2	Lauren	no	glp-1 mut	This study	17	with males
+genotypeglp-1	0.879538721	0.585353496	1.321574683	0.536675414	glp-1_v_N2	Travis	no	glp-1 mut	Travis	17	with males
+genotypeisp-1	0.645359421	0.39796505	1.046546126	0.075812419	2016-0829-MitoMutantLifespan	Lauren	yes	isp-1 mut	This study	16	with males
+genotypeAGD1505	0.595131464	0.393056347	0.901095891	0.014205826	2021-0319-N2vsAGD1505-MID	Lauren	no	jmjd-1.2 OE	This study	18	with males
+genotypeAGD1505	1.69034976	1.152207671	2.479832745	0.007263565	2021-0405-N2-AGD1505-MID	Lauren	no	jmjd-1.2 OE	This study	18	with males
+RNAilpr-6	0.599738849	0.373973441	0.961797411	0.03387113	2017-1009-RNAi-screen#3	Lauren-screen	yes	lpr-6 RNAi	This study (screen)	11	with males
+RNAinhx-2	0.29312594	0.210181267	0.408803402	4.80E-13	031819_acbp-3_col-43_nhx-2_MID	Cindy	yes	nhx-2 RNAi	This study	12	with males
+RNAinhx-2	0.506690622	0.321867973	0.797641914	0.003318754	2019-0812-acd-1-nhx-2-sri-40-RNAi	Lauren	yes	nhx-2 RNAi	This study	12	with males
+genotypenuo-6	0.225752481	0.136326577	0.373838936	7.32E-09	2016-0829-MitoMutantLifespan	Lauren	yes	nuo-6 mut	This study	15	with males
+Genotypenuo-6	0.128118676	0.063184981	0.25978318	1.22E-08	2017-02-nuo-6-delm-2-MID	Lauren	yes	nuo-6 mut	This study	15	with males
+RNAiR03G8.4	0.515649676	0.279988974	0.949660927	0.033525321	2016-0713-screen#1	Lauren-screen	yes	R03G8.4 RNAi	This study (screen)	7	with males
+RNAisre-28	0.611624211	0.388935069	0.961816522	0.03329432	2017-1009-RNAi-screen#3	Lauren-screen	yes	sre-28 RNAi	This study (screen)	14	with males
+RNAisri-40	0.340877997	0.237093576	0.490092607	6.25E-09	081018_sri-40_MID	Cindy	yes	sri-40 RNAi	This study	10	with males
+RNAisri-40	0.315702486	0.200603062	0.496842165	6.25E-07	2017-1009-RNAi-screen#3	Lauren-screen	yes	sri-40 RNAi	This study (screen)	10	with males
+RNAisri-40	0.663352701	0.455395038	0.966274925	0.032457772	2018-0302-sri-40-nhr-3-MID	Lauren	yes	sri-40 RNAi	This study	10	with males
+RNAisri-40	0.511229021	0.32939416	0.79344185	0.002774822	2019-0812-acd-1-nhx-2-sri-40-RNAi	Lauren	yes	sri-40 RNAi	This study	10	with males
+RNAiT05E7.1	0.433424238	0.219009846	0.857753995	0.016371196	2017-0519-RNAiscreen-3-7overlap	Lauren-screen	yes	T05E7.1 RNAi	This study (screen)	6	with males
+RNAiutx-1	0.329570316	0.215304014	0.504480113	3.22E-07	2015-0223-utx-1MID	Lauren	no	utx-1 RNAi	This study	8	with males
+RNAiutx-1	0.181248674	0.103202356	0.318317167	2.79E-09	2016-0218-utx-1-MID-tissues	Lauren	no	utx-1 RNAi	This study	8	with males
+RNAiutx-1	0.307628764	0.211429465	0.447598239	7.21E-10	2016-0325-MID-RNAi-utx-1-nhr-6	Lauren	no	utx-1 RNAi	This study	8	with males
+RNAiutx-1	0.221034187	0.11741542	0.416096214	2.92E-06	2016-0713-screen#1	Lauren-screen	yes	utx-1 RNAi	This study (screen)	8	with males
+RNAiutx-1	0.191875856	0.084176382	0.437371425	8.60E-05	2017-0519-RNAiscreen-3-7overlap	Lauren-screen	yes	utx-1 RNAi	This study (screen)	8	with males
+RNAiutx-1	0.497872952	0.315863574	0.784761196	0.002665026	2017-1009-RNAi-screen#3	Lauren-screen	yes	utx-1 RNAi	This study (screen)	8	with males
+RNAiutx-1	0.225774123	0.121421957	0.419808376	2.57E-06	utx-1_v_control	Travis	no	utx-1 RNAi	Travis	8	with males
+RNAiwrt-10	0.559612702	0.364187112	0.859905159	0.008082522	2017-1009-RNAi-screen#3	Lauren-screen	yes	wrt-10 RNAi	This study (screen)	9	with males
+RNAiacbp-3	0.801701567	0.588135106	1.092819313	0.161999757	031819_acbp-3_col-43_nhx-2_MID	Cindy	yes	acbp-3 RNAi	This study	4	her only
+RNAiacbp-3	1.191310788	0.665768602	2.131703702	0.555423168	2017-0519-RNAiscreen-3-7overlap	Lauren-screen	yes	acbp-3 RNAi	This study (screen)	4	her only
+RNAiacbp-3	1.763886268	1.215332027	2.560036843	0.002825875	2020-0925-delm-2-acbp-3-VP303-MID	Lauren	no	acbp-3 RNAi	This study	4	her only
+RNAiacbp-3	0.587555194	0.432250498	0.798659822	0.000685195	2020-1019-TU3401-acbp-3-delm-2-RNAi	Lauren	no 	acbp-3 RNAi	This study	4	her only
+RNAiacd-1	0.818685675	0.597007917	1.122675621	0.214336402	021819_acd-1_delm-2	Cindy	yes	acd-1 RNAi	This study	5	her only
+RNAiacd-1	0.851467824	0.594927913	1.218630759	0.379387315	2019-0812-acd-1-nhx-2-sri-40-RNAi	Lauren	yes	acd-1 RNAi	This study	5	her only
+RNAiF08A8.3	1.022917222	0.564940668	1.852158469	0.940371526	2016-0713-screen#1	Lauren-screen	yes	acox-1.3 RNAi	This study (screen)	3	her only
+RNAicol-43	0.939744523	0.667698346	1.322632854	0.721543357	031819_acbp-3_col-43_nhx-2_MID	Cindy	yes	col-43 RNAi	This study	1	her only
+RNAicol-43	0.565144798	0.417063528	0.765803341	0.000232167	090118_col-43	Cindy	yes	col-43 RNAi	This study	1	her only
+RNAicol-43	1.429776142	0.811925828	2.517791339	0.215596607	2016-0713-screen#1	Lauren-screen	yes	col-43 RNAi	This study (screen)	1	her only
+genotype_RNAidaf-2	0.103745238	0.069063744	0.155842615	9.90E-28	2021-0311-12-delm-2-daf-2-MID	Lauren	no 	daf-2 mut	This study	19	her only
+genotypedaf-2	0.017105128	0.006985106	0.041887039	5.42E-19	daf-2_v_N2_rep1	Travis	no	daf-2 mut	Travis	19	her only
+genotypedaf-2	0.026381544	0.011998402	0.058006548	1.53E-19	daf-2_v_N2_rep2	Travis	no	daf-2 mut	Travis	19	her only
+RNAidelm-2	0.420509587	0.303289555	0.583034627	2.04E-07	021819_acd-1_delm-2	Cindy	yes	delm-2 RNAi	This study	2	her only
+RNAidelm-2	1.226771191	0.676084211	2.226006066	0.501375059	2016-0713-screen#1	Lauren-screen	yes	delm-2 RNAi	This study (screen)	2	her only
+conditiondelm-2	0.349197816	0.256347076	0.475679756	2.54E-11	2020-0911-acbp-3mut-delm-2RNAi-MID	Lauren	no	delm-2 RNAi	This study	2	her only
+RNAidelm-2	1.223990809	0.840141183	1.783216358	0.292468412	2020-0925-delm-2-acbp-3-VP303-MID	Lauren	no	delm-2 RNAi	This study	2	her only
+conditiondelm-2	0.477919085	0.331033546	0.68998038	8.13E-05	2020-1016-acbp-3mut-delm-2RNAi-MID	Lauren	no	delm-2 RNAi	This study	2	her only
+RNAidelm-2	0.471142789	0.348181027	0.637529075	1.08E-06	2020-1019-TU3401-acbp-3-delm-2-RNAi	Lauren	no	delm-2 RNAi	This study	2	her only
+RNAidelm-2	0.819655524	0.607534234	1.105839211	0.193072864	2021-0219-intestineRNAi-delm-2	Lauren	no 	delm-2 RNAi	This study	2	her only
+RNAidelm-2	0.944670396	0.705345133	1.265199285	0.70256617	2021-0223-intestineRNAi-delm-2	Lauren	no 	delm-2 RNAi	This study	2	her only
+conditiondelm-2	0.916433464	0.686635272	1.223138874	0.55353607	2021-0305-delm-2-fat-7-MID	Lauren	no	delm-2 RNAi	This study	2	her only
+genotype_RNAidelm-2	0.876996445	0.662931653	1.1601841	0.357936463	2021-0311-12-delm-2-daf-2-MID	Lauren	no	delm-2 RNAi	This study	2	her only
+conditiondelm-2	0.888098006	0.661941711	1.191521934	0.428712499	2021-0319-delm-2-fat-7-MID-rep2	Lauren	no	delm-2 RNAi	This study	2	her only
+conditiondelm-2-RNAi	0.606974226	0.448664309	0.821143345	0.001203865	2021-0709-DEG-ENaC-mut-MID	Lauren	no	delm-2 RNAi	This study	2	her only
+RNAiefn-4	0.621007153	0.315288797	1.223163929	0.168353883	2017-0519-RNAiscreen-3-7overlap	Lauren-screen	yes	efn-4 RNAi	This study (screen)	13	her only
+Genotypeglp-1	0.283456993	0.20578129	0.390452732	1.20E-14	2021-0601-glp-1timing-vs-N2	Lauren	no	glp-1 mut	This study	17	her only
+genotypeglp-1	0.246846648	0.169908888	0.358623191	2.12E-13	glp-1_v_N2	Travis	no	glp-1 mut	Travis	17	her only
+genotypeisp-1	0.336023154	0.242717909	0.465196657	4.99E-11	2016-0829-MitoMutantLifespan	Lauren	yes	isp-1 mut	This study	16	her only
+genotypeAGD1505	0.328610455	0.214474764	0.503485021	3.19E-07	2021-0319-N2vsAGD1505-MID	Lauren	no	jmjd-1.2 OE	This study	18	her only
+genotypeAGD1505	0.245842915	0.16496846	0.366365417	5.46E-12	2021-0405-N2-AGD1505-MID	Lauren	no	jmjd-1.2 OE	This study	18	her only
+RNAilpr-6	0.799327855	0.472290804	1.352821217	0.404099249	2017-1009-RNAi-screen#3	Lauren-screen	yes	lpr-6 RNAi	This study (screen)	11	her only
+RNAinhx-2	0.767475523	0.561523798	1.048964765	0.09689458	031819_acbp-3_col-43_nhx-2_MID	Cindy	yes	nhx-2 RNAi	This study	12	her only
+RNAinhx-2	0.42572271	0.299152299	0.605844669	2.10E-06	2019-0812-acd-1-nhx-2-sri-40-RNAi	Lauren	yes	nhx-2 RNAi	This study	12	her only
+genotypenuo-6	0.242337449	0.174125855	0.337270069	4.30E-17	2016-0829-MitoMutantLifespan	Lauren	yes	nuo-6 mut	This study	15	her only
+Genotypenuo-6	0.104161958	0.065937542	0.164545315	3.16E-22	2017-02-nuo-6-delm-2-MID	Lauren	yes	nuo-6 mut	This study	15	her only
+RNAiR03G8.4	1.032355602	0.59842985	1.780924014	0.908876502	2016-0713-screen#1	Lauren-screen	yes	R03G8.4 RNAi	This study (screen)	7	her only
+RNAisre-28	0.490020309	0.291218015	0.824536568	0.007217491	2017-1009-RNAi-screen#3	Lauren-screen	yes	sre-28 RNAi	This study (screen)	14	her only
+RNAisri-40	0.607647044	0.444187667	0.831258852	0.001833453	081018_sri-40_MID	Cindy	yes	sri-40 RNAi	This study	10	her only
+RNAisri-40	0.428940154	0.252967149	0.727326281	0.001679824	2017-1009-RNAi-screen#3	Lauren-screen	yes	sri-40 RNAi	This study (screen)	10	her only
+RNAisri-40	0.865699253	0.626522037	1.196183299	0.382033272	2018-0302-sri-40-nhr-3-MID	Lauren	yes	sri-40 RNAi	This study	10	her only
+RNAisri-40	0.529917387	0.373315767	0.752211565	0.000380697	2019-0812-acd-1-nhx-2-sri-40-RNAi	Lauren	yes	sri-40 RNAi	This study	10	her only
+RNAiT05E7.1	1.088696593	0.608327564	1.948391526	0.774744546	2017-0519-RNAiscreen-3-7overlap	Lauren-screen	yes	T05E7.1 RNAi	This study (screen)	6	her only
+RNAiutx-1	0.632587201	0.465432063	0.859774387	0.003444616	2015-0223-utx-1MID	Lauren	no	utx-1 RNAi	This study	8	her only
+RNAiutx-1	0.540056008	0.380389479	0.766741741	0.000570424	2016-0218-utx-1-MID-tissues	Lauren	no	utx-1 RNAi	This study	8	her only
+RNAiutx-1	0.526783004	0.373555081	0.742863228	0.00025729	2016-0325-MID-RNAi-utx-1-nhr-6	Lauren	no	utx-1 RNAi	This study	8	her only
+RNAiutx-1	0.57745941	0.326611169	1.020967446	0.058946035	2016-0713-screen#1	Lauren-screen	yes	utx-1 RNAi	This study (screen)	8	her only
+RNAiutx-1	0.7724168	0.402489312	1.48234424	0.437492376	2017-0519-RNAiscreen-3-7overlap	Lauren-screen	yes	utx-1 RNAi	This study (screen)	8	her only
+RNAiutx-1	0.46803162	0.282999346	0.774042768	0.003098444	2017-1009-RNAi-screen#3	Lauren-screen	yes	utx-1 RNAi	This study (screen)	8	her only
+RNAiutx-1	0.299790708	0.187307465	0.479823208	5.16E-07	utx-1_v_control	Travis	no	utx-1 RNAi	Travis	8	her only
+RNAiwrt-10	0.745974266	0.44335886	1.255140373	0.269617123	2017-1009-RNAi-screen#3	Lauren-screen	yes	wrt-10 RNAi	This study (screen)	9	her only
